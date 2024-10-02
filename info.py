@@ -48,10 +48,10 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/UHD_Links")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "9ef1be4029b84770c41dca7e942eefa219468576")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "9ef1be4029b84770c41dca7e942eefa219468576")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantearn.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "9ef1be4029b84770c41dca7e942eefa219468576")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'instantearn.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -71,8 +71,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://graph.org/file/2bf5bb32bbc4ee87099d7.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/2bf5bb32bbc4ee87099d7.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/c0dc1c1d4bca95b56cc73.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/W5b.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------

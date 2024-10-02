@@ -31,27 +31,27 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002168059715'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002168059715'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002168059715'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002168059715'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1001921446982')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002186410902'))
-request_channel = environ.get('REQUEST_CHANNEL', '0')
+request_channel = environ.get('REQUEST_CHANNEL', '-1002168059715')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002183132764'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/UHD_Tamil_Support') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/UHD_Links")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "9ef1be4029b84770c41dca7e942eefa219468576")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "9ef1be4029b84770c41dca7e942eefa219468576")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantearn.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "9ef1be4029b84770c41dca7e942eefa219468576")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'instantearn.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -68,8 +68,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/2bf5bb32bbc4ee87099d7.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/2bf5bb32bbc4ee87099d7.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))

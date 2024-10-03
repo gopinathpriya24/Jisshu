@@ -345,7 +345,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 NOTE:
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/UHD_Filter_bot">𝐔𝐇𝐃-𝐓𝐚𝐦𝐢𝐥-𝐁𝐨𝐭</a></blockquote>
 
-developer : Mr.Jisshu
+developer : ~ 𝓖𝓸𝓹𝓲 🍂
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------

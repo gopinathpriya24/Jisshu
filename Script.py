@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/UHD_Tamil">𝐔𝐇𝐃 𝐓𝐚𝐦𝐢𝐥</a>」</b>"""
+    FILE_CAPTION = """<b>{file_name}\n✥━━━•••••••••••━━━✥\nJoin : 💕 @UHD_Tamil\n✥━━━•••••••••••━━━✥</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""

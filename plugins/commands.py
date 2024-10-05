@@ -343,7 +343,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file.file_id}')
+                InlineKeyboardButton("× 𝙹𝚘𝚒𝚗 𝙵𝚘𝚛 𝙽𝚎𝚠 𝙼𝚘𝚟𝚒𝚎𝚜 ×", url=f'https://t.me/+wiG_pJF2oGo3MDk1')
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -383,7 +383,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("× 𝙹𝚘𝚒𝚗 𝙵𝚘𝚛 𝙽𝚎𝚠 𝙼𝚘𝚟𝚒𝚎𝚜 ×", url=f'https://t.me/+wiG_pJF2oGo3MDk1')
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,

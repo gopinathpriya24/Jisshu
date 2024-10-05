@@ -118,7 +118,7 @@ User - {}"""
     FILE_CAPTION = """<b>{file_name}\n✥━━━•••••••••••━━━✥\nJoin : 💕 @UHD_Tamil\n✥━━━•••••••••••━━━✥</b>"""
     
 
-    ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
+    ALRT_TXT = """ɢᴇᴛ ᴀᴡᴀʏ ғʀᴏᴍ ʜᴇʀᴇ ǫᴜɪᴄᴋʟʏ !!!"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 
@@ -343,7 +343,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 
     SOURCE_TXT = """<b>
 NOTE:
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/UHD_Filter_bot">𝐔𝐇𝐃-𝐓𝐚𝐦𝐢𝐥-𝐁𝐨𝐭</a></blockquote>
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="t.me/UHD_Filter_bot">𝐔𝐇𝐃-𝐓𝐚𝐦𝐢𝐥-𝐁𝐨𝐭</a></blockquote>
 
 developer : ~ 𝓖𝓸𝓹𝓲 🍂
 </b>""" 

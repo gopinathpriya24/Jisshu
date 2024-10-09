@@ -38,7 +38,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002168059715'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1001921446982')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002186410902'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002168059715')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002183132764'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002186410902'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/UHD_Tamil_Support') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
